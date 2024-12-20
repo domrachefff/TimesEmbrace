@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E53B5902D08A78100DCFE08 /* TimesEmbraceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B58F2D08A78100DCFE08 /* TimesEmbraceApp.swift */; };
+		2E53B5922D08A78100DCFE08 /* CapsulesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5912D08A78100DCFE08 /* CapsulesListView.swift */; };
+		2E53B5942D08A78400DCFE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E53B5932D08A78400DCFE08 /* Assets.xcassets */; };
+		2E53B5972D08A78400DCFE08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E53B5962D08A78400DCFE08 /* Preview Assets.xcassets */; };
+		2E53B5992D08A78400DCFE08 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5982D08A78400DCFE08 /* Persistence.swift */; };
+		2E53B59C2D08A78400DCFE08 /* TimesEmbrace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B59A2D08A78400DCFE08 /* TimesEmbrace.xcdatamodeld */; };
+		2E53B5A62D08AA1E00DCFE08 /* Capsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5A52D08AA1E00DCFE08 /* Capsule.swift */; };
+		2E53B5A82D08AAB000DCFE08 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5A72D08AAB000DCFE08 /* User.swift */; };
+		2E53B5AC2D08ABB700DCFE08 /* CreateCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5AB2D08ABB700DCFE08 /* CreateCapsuleView.swift */; };
+		2E53B5AE2D08ABF900DCFE08 /* CreateCapsuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5AD2D08ABF900DCFE08 /* CreateCapsuleViewModel.swift */; };
+		2E53B5B32D08B62E00DCFE08 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5B22D08B62E00DCFE08 /* SettingsViewModel.swift */; };
+		2E53B5B72D098B6000DCFE08 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5B62D098B6000DCFE08 /* MainTabView.swift */; };
+		2E53B5B92D098C6400DCFE08 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5B82D098C6400DCFE08 /* SettingsView.swift */; };
+		2E53B5BB2D0990EC00DCFE08 /* CapsulesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5BA2D0990EC00DCFE08 /* CapsulesListViewModel.swift */; };
+		2E53B5BE2D09A2A600DCFE08 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53B5BD2D09A2A600DCFE08 /* View+Extension.swift */; };
+		2E7E35662D0B1B52006E91DD /* AudioRecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E35652D0B1B52006E91DD /* AudioRecorderViewModel.swift */; };
+		2E7E35692D0B2A8F006E91DD /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E35682D0B2A8F006E91DD /* MediaView.swift */; };
+		2E7E356B2D0B2ABC006E91DD /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E356A2D0B2ABC006E91DD /* AudioPlayerView.swift */; };
+		2E7E356D2D0B2C89006E91DD /* CapsuleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E356C2D0B2C89006E91DD /* CapsuleDetailView.swift */; };
+		2E8792DB2D09FC1D00A8D22C /* AudioCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8792DA2D09FC1D00A8D22C /* AudioCapsuleView.swift */; };
+		2E8792DD2D09FC6700A8D22C /* VideoCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8792DC2D09FC6700A8D22C /* VideoCapsuleView.swift */; };
+		2E8792DF2D09FC7F00A8D22C /* TextCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8792DE2D09FC7F00A8D22C /* TextCapsuleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E53B58C2D08A78100DCFE08 /* TimesEmbrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimesEmbrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E53B58F2D08A78100DCFE08 /* TimesEmbraceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesEmbraceApp.swift; sourceTree = "<group>"; };
+		2E53B5912D08A78100DCFE08 /* CapsulesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsulesListView.swift; sourceTree = "<group>"; };
+		2E53B5932D08A78400DCFE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E53B5962D08A78400DCFE08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E53B5982D08A78400DCFE08 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2E53B59B2D08A78400DCFE08 /* TimesEmbrace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimesEmbrace.xcdatamodel; sourceTree = "<group>"; };
+		2E53B5A52D08AA1E00DCFE08 /* Capsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capsule.swift; sourceTree = "<group>"; };
+		2E53B5A72D08AAB000DCFE08 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2E53B5AB2D08ABB700DCFE08 /* CreateCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCapsuleView.swift; sourceTree = "<group>"; };
+		2E53B5AD2D08ABF900DCFE08 /* CreateCapsuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCapsuleViewModel.swift; sourceTree = "<group>"; };
+		2E53B5B22D08B62E00DCFE08 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		2E53B5B62D098B6000DCFE08 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		2E53B5B82D098C6400DCFE08 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2E53B5BA2D0990EC00DCFE08 /* CapsulesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsulesListViewModel.swift; sourceTree = "<group>"; };
+		2E53B5BD2D09A2A600DCFE08 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		2E7E35652D0B1B52006E91DD /* AudioRecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderViewModel.swift; sourceTree = "<group>"; };
+		2E7E35682D0B2A8F006E91DD /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
+		2E7E356A2D0B2ABC006E91DD /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		2E7E356C2D0B2C89006E91DD /* CapsuleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleDetailView.swift; sourceTree = "<group>"; };
+		2E8792DA2D09FC1D00A8D22C /* AudioCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCapsuleView.swift; sourceTree = "<group>"; };
+		2E8792DC2D09FC6700A8D22C /* VideoCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapsuleView.swift; sourceTree = "<group>"; };
+		2E8792DE2D09FC7F00A8D22C /* TextCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCapsuleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E53B5892D08A78100DCFE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E53B5832D08A78100DCFE08 = {
+			isa = PBXGroup;
+			children = (
+				2E53B58E2D08A78100DCFE08 /* TimesEmbrace */,
+				2E53B58D2D08A78100DCFE08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E53B58D2D08A78100DCFE08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E53B58C2D08A78100DCFE08 /* TimesEmbrace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E53B58E2D08A78100DCFE08 /* TimesEmbrace */ = {
+			isa = PBXGroup;
+			children = (
+				2E53B58F2D08A78100DCFE08 /* TimesEmbraceApp.swift */,
+				2E53B5BC2D09A28800DCFE08 /* Extensions */,
+				2E53B5AF2D08AD0F00DCFE08 /* Services */,
+				2E53B5A42D08A97200DCFE08 /* ViewModel */,
+				2E53B5A32D08A96A00DCFE08 /* Model */,
+				2E53B5A22D08A96300DCFE08 /* View */,
+				2E53B5932D08A78400DCFE08 /* Assets.xcassets */,
+				2E53B5982D08A78400DCFE08 /* Persistence.swift */,
+				2E53B59A2D08A78400DCFE08 /* TimesEmbrace.xcdatamodeld */,
+				2E53B5952D08A78400DCFE08 /* Preview Content */,
+			);
+			path = TimesEmbrace;
+			sourceTree = "<group>";
+		};
+		2E53B5952D08A78400DCFE08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E53B5962D08A78400DCFE08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E53B5A22D08A96300DCFE08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E7E35672D0B2A72006E91DD /* DetailViews */,
+				2E8792D82D09FB8100A8D22C /* MainViews */,
+				2E8792D92D09FBE100A8D22C /* RecordingViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E53B5A32D08A96A00DCFE08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E53B5A52D08AA1E00DCFE08 /* Capsule.swift */,
+				2E53B5A72D08AAB000DCFE08 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E53B5A42D08A97200DCFE08 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E8792E02D09FD0700A8D22C /* MainViewModels */,
+				2E8792E12D09FD1D00A8D22C /* RecordingViewModels */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2E53B5AF2D08AD0F00DCFE08 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2E53B5BC2D09A28800DCFE08 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E53B5BD2D09A2A600DCFE08 /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E7E35672D0B2A72006E91DD /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				2E7E35682D0B2A8F006E91DD /* MediaView.swift */,
+				2E7E356C2D0B2C89006E91DD /* CapsuleDetailView.swift */,
+				2E7E356A2D0B2ABC006E91DD /* AudioPlayerView.swift */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		2E8792D82D09FB8100A8D22C /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				2E53B5B62D098B6000DCFE08 /* MainTabView.swift */,
+				2E53B5912D08A78100DCFE08 /* CapsulesListView.swift */,
+				2E53B5AB2D08ABB700DCFE08 /* CreateCapsuleView.swift */,
+				2E53B5B82D098C6400DCFE08 /* SettingsView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		2E8792D92D09FBE100A8D22C /* RecordingViews */ = {
+			isa = PBXGroup;
+			children = (
+				2E8792DA2D09FC1D00A8D22C /* AudioCapsuleView.swift */,
+				2E8792DC2D09FC6700A8D22C /* VideoCapsuleView.swift */,
+				2E8792DE2D09FC7F00A8D22C /* TextCapsuleView.swift */,
+			);
+			path = RecordingViews;
+			sourceTree = "<group>";
+		};
+		2E8792E02D09FD0700A8D22C /* MainViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2E53B5BA2D0990EC00DCFE08 /* CapsulesListViewModel.swift */,
+				2E53B5AD2D08ABF900DCFE08 /* CreateCapsuleViewModel.swift */,
+				2E53B5B22D08B62E00DCFE08 /* SettingsViewModel.swift */,
+			);
+			path = MainViewModels;
+			sourceTree = "<group>";
+		};
+		2E8792E12D09FD1D00A8D22C /* RecordingViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2E7E35652D0B1B52006E91DD /* AudioRecorderViewModel.swift */,
+			);
+			path = RecordingViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E53B58B2D08A78100DCFE08 /* TimesEmbrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E53B59F2D08A78400DCFE08 /* Build configuration list for PBXNativeTarget "TimesEmbrace" */;
+			buildPhases = (
+				2E53B5882D08A78100DCFE08 /* Sources */,
+				2E53B5892D08A78100DCFE08 /* Frameworks */,
+				2E53B58A2D08A78100DCFE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimesEmbrace;
+			productName = TimesEmbrace;
+			productReference = 2E53B58C2D08A78100DCFE08 /* TimesEmbrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E53B5842D08A78100DCFE08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2E53B58B2D08A78100DCFE08 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2E53B5872D08A78100DCFE08 /* Build configuration list for PBXProject "TimesEmbrace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E53B5832D08A78100DCFE08;
+			productRefGroup = 2E53B58D2D08A78100DCFE08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E53B58B2D08A78100DCFE08 /* TimesEmbrace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E53B58A2D08A78100DCFE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E53B5972D08A78400DCFE08 /* Preview Assets.xcassets in Resources */,
+				2E53B5942D08A78400DCFE08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E53B5882D08A78100DCFE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E53B5992D08A78400DCFE08 /* Persistence.swift in Sources */,
+				2E7E35662D0B1B52006E91DD /* AudioRecorderViewModel.swift in Sources */,
+				2E7E35692D0B2A8F006E91DD /* MediaView.swift in Sources */,
+				2E8792DB2D09FC1D00A8D22C /* AudioCapsuleView.swift in Sources */,
+				2E53B5A62D08AA1E00DCFE08 /* Capsule.swift in Sources */,
+				2E7E356D2D0B2C89006E91DD /* CapsuleDetailView.swift in Sources */,
+				2E53B5B32D08B62E00DCFE08 /* SettingsViewModel.swift in Sources */,
+				2E53B5A82D08AAB000DCFE08 /* User.swift in Sources */,
+				2E53B5922D08A78100DCFE08 /* CapsulesListView.swift in Sources */,
+				2E53B59C2D08A78400DCFE08 /* TimesEmbrace.xcdatamodeld in Sources */,
+				2E8792DD2D09FC6700A8D22C /* VideoCapsuleView.swift in Sources */,
+				2E53B5BB2D0990EC00DCFE08 /* CapsulesListViewModel.swift in Sources */,
+				2E53B5AC2D08ABB700DCFE08 /* CreateCapsuleView.swift in Sources */,
+				2E53B5902D08A78100DCFE08 /* TimesEmbraceApp.swift in Sources */,
+				2E7E356B2D0B2ABC006E91DD /* AudioPlayerView.swift in Sources */,
+				2E53B5B92D098C6400DCFE08 /* SettingsView.swift in Sources */,
+				2E53B5AE2D08ABF900DCFE08 /* CreateCapsuleViewModel.swift in Sources */,
+				2E8792DF2D09FC7F00A8D22C /* TextCapsuleView.swift in Sources */,
+				2E53B5BE2D09A2A600DCFE08 /* View+Extension.swift in Sources */,
+				2E53B5B72D098B6000DCFE08 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E53B59D2D08A78400DCFE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E53B59E2D08A78400DCFE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E53B5A02D08A78400DCFE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimesEmbrace/Preview Content\"";
+				DEVELOPMENT_TEAM = JKG284T45M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Time's Embrace";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Приложение использует микрофон для записи видео-сообщений.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Приложение использует микрофон для записи голосовых сообщений.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = domrachefff.TimesEmbrace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E53B5A12D08A78400DCFE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimesEmbrace/Preview Content\"";
+				DEVELOPMENT_TEAM = JKG284T45M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Time's Embrace";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Приложение использует микрофон для записи видео-сообщений.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Приложение использует микрофон для записи голосовых сообщений.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = domrachefff.TimesEmbrace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E53B5872D08A78100DCFE08 /* Build configuration list for PBXProject "TimesEmbrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E53B59D2D08A78400DCFE08 /* Debug */,
+				2E53B59E2D08A78400DCFE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E53B59F2D08A78400DCFE08 /* Build configuration list for PBXNativeTarget "TimesEmbrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E53B5A02D08A78400DCFE08 /* Debug */,
+				2E53B5A12D08A78400DCFE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E53B59A2D08A78400DCFE08 /* TimesEmbrace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E53B59B2D08A78400DCFE08 /* TimesEmbrace.xcdatamodel */,
+			);
+			currentVersion = 2E53B59B2D08A78400DCFE08 /* TimesEmbrace.xcdatamodel */;
+			path = TimesEmbrace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E53B5842D08A78100DCFE08 /* Project object */;
+}
